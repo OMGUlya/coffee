@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFE2B0;
+}
+
+header {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0%;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+a {
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.secetion-about {
+    height: 640px;
+    background: url(../img/nathan-dumlao-6VhPY27jdps-unsplash.jpg) center /cover no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.secetion-about__blok {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244 ,213 ,178 , 0.8)0%, rgba(234 ,156 ,65 ,0.8)100%);
+    position: absolute;
+    top: 54%;
+    left: 65%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.secetion-about__border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 15px;
+    padding: 17px 0 0 28px;
+    text-align: left;
+}
+
+.secetion-about__title {
+    font-size: 26px;
+    margin: 0;
+    margin-bottom: 9px;
+}
+.secetion-about__text {
+    font-size: 12px;
+    margin: 0;
+}
+.secetion-description {
+    height: 290px;
+    width: 1000px;
+    position: relative;
+    top: 24%;
+    left: 24%;
+}
+.secetion-description__box {
+    display: flex;
+    justify-content: center;
+  }
+  
+.secetion-description__box img {
+      width:100%;
+  }
+
+.secetion-description__title {
+    font-size: 96px;
+    margin: 0px;
+    text-align: center;
+}
+.red {
+    color: #f15b40;
+}
+.secetion-description__title {
+  color:rgb(83, 83, 83);
+}
+.secetion-description__text {
+    font-size: 18px;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+.secetion-map__title {
+    position: relative;
+    margin-top: 400px;
+    text-align: center;
+    font-size: 36px;
+}
+iframe {
+    display: block;
+    margin: auto;
+}
